@@ -1,37 +1,22 @@
-#include "main.h"
-
+#include "holberton.h"
 
 /**
- *  *main - entry point
+ *  * main - program that prints Holberton.
  *   *
- *    *Description: prints Holberton followed by a newline
- *     *
- *      *Return: returns 0(successful)
- *       * main - Entry point
- *        *
- *         * Return: nothing, return void
- *          */
+ *    * Return: int
+ *     */
 
 int main(void)
 {
-		char holbText[9] = "Holberton";
-			int i;
-			_putchar('_');
-			_putchar('p');
-			_putchar('u');
-			_putchar('t');
-			_putchar('c');
-			_putchar('h');
-			_putchar('a');
-			_putchar('r');
-			_putchar('\n');
+		int n = 0;
+			char str_hbt[9] = "Holberton";
 
-				for (i = 0; i < 9; i++)
+				while (n < 9)
 						{
-									_putchar(holbText[i]);
-										}
+									_putchar(str_hbt[n]);
+											n += 1;
+												}
 					_putchar('\n');
-						return (0);
 						return (0);
 }
 
